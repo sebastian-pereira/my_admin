@@ -1,0 +1,18 @@
+<%= link_to 'Назад', :controller => @model.pluralize, :action => :index%>
+<%= flash[:notice] %>
+
+<div id="model_table">
+	<%= render 'table', :field_labels => @field_labels, :fields => @fields %>
+</div>
+
+<p class="notice"><%= flash[:add_field] %></p>
+
+<%= form_tag({:controller => :model, :action => :add_field}, {:remote => false}) do %>
+	<table>
+			<% @fields_for_create.each do |f| %>
+					<%= f.html(:table) %>
+			<% end %>
+			<td><%= submit_tag 'Добавить'%></td>
+
+	</table>
+<% end %>

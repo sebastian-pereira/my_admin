@@ -1,0 +1,50 @@
+---
+id:
+  label: ID
+  position: '1'
+  type: label
+  visible: '1'
+  editable: '1'
+name:
+  label: aaa
+  position: '3'
+  type: text
+  visible: '1'
+  editable: '1'
+surname:
+  label: Surname
+  position: '2'
+  type: text
+  visible: '1'
+  editable: '1'
+user_hash:
+  label: Hash
+  position: '4'
+  type: text
+  visible: '1'
+  editable: '1'
+---
+id:
+  label: ID
+  position: '1'
+  type: label
+  visible: '1'
+  editable: '1'
+name:
+  label: aaa
+  position: '3'
+  type: text
+  visible: '1'
+  editable: '1'
+surname:
+  label: Surname
+  position: '2'
+  type: text
+  visible: '1'
+  editable: '1'
+user_hash:
+  label: Hash
+  position: '4'
+  type: text
+  visible: '1'
+  editable: '1'

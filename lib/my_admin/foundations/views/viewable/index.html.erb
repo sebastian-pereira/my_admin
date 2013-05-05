@@ -1,0 +1,21 @@
+<% if @objects.length > 0 %>
+    <table>
+        <tr>
+            <% colzer(@model.new).each do |f| %>
+                <th><%= f.label %></th>
+            <% end %>
+            <th></th>
+
+
+        </tr>
+
+    </table>
+
+    <table>
+      <% @objects.each do |obj| %>
+        <%= obj.render_in_list %>
+      <% end %>
+    </table>
+<% else %>
+    <h4>Ничего не найдено</h4>
+<% end %>

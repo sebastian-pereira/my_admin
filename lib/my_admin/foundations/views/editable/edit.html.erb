@@ -1,0 +1,11 @@
+<!-- TODO: Переделать на form_tag -->
+<form action="/admin_area/<%=@model_name.pluralize.downcase%>/save" method="post">
+  <%= hidden_field @model_name.downcase, :id, :value => @object.object.id %>
+  <table>
+    <%= @object.render %>
+  </table>
+
+  <%= submit_tag 'Сохранить'%>
+
+</form>
+

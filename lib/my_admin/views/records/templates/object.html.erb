@@ -1,0 +1,13 @@
+<% if result.size > 0 %>
+	<tr class="<%= (as_child == true) ? "relation_row_unit" : "item_row_unit" %>">
+        <% result.each do |f| %>
+            <td><%= f.html(:single) %></td>
+        <% end %>
+        <% @actions.each do |a| %>
+          <!-- TODO: Убрать костыль-->
+            <td><%= a.render(@object) %></td>
+        <% end %>
+    </tr>
+<% end %>
+
+<%#= link_to 'Добавить', '#'%>

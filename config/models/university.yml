@@ -1,0 +1,12 @@
+actions:
+  edit: 1
+  view : 1
+  delete : 0
+  save : 1
+  add : 1
+
+relations:
+  faculties:
+    label: 'Faculties'
+    type: 'has_many'
+    visible: '1'    

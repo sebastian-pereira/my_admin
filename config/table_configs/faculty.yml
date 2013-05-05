@@ -1,0 +1,15 @@
+---
+id:
+  label: ID
+  position: '1'
+  type: label
+  visible: '1'
+  disabled : '0'
+  readonly: '1'
+name:
+  label: Name
+  position: '3'
+  type: text
+  visible: '1'
+  disabled : '0'
+  readonly: '1'

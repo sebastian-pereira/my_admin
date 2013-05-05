@@ -1,0 +1,8 @@
+<%= form_tag :controller => @short_model_name, :action => :save do %>
+    <% erb = ERB.new(File.read(File.dirname(__FILE__) + "/../_table.html.erb")) %>
+    <%= erb.result(binding).html_safe %>
+
+
+<%= submit_tag 'Создать' %>
+
+<% end %>

@@ -1,0 +1,22 @@
+label : 
+  name : 'Название'
+  type : 'text'
+position :
+  name : 'Позиция'
+  type : 'text'
+type : 
+  name : 'Тип'
+  type : 'select'
+  values : 'field_types'
+visible :
+  name : 'Visible'
+  type : 'select'
+  values : 'yes_no'
+readonly :
+  name : 'Readonly'
+  type : 'select'
+  values : 'yes_no'
+disabled :
+  name : 'Disabled'
+  type : 'select'
+  values : 'yes_no'  

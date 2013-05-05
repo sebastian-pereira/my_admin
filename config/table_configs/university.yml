@@ -1,0 +1,29 @@
+---
+id:
+  label: ID
+  position: '1'
+  type: label
+  visible: '1'
+  readonly: '1'
+  disabled: '0'
+name:
+  label: Name
+  position: '2'
+  type: text
+  visible: '1'
+  readonly: '1'
+  disabled: '0'
+abbr:
+  label: Short
+  position: '3'
+  type: text
+  visible: '1'
+  readonly: '0'
+  disabled: '0'
+city_id:
+  label: City
+  position: '3'
+  type: select
+  visible: '1'
+  readonly: '0'
+  disabled: '0'

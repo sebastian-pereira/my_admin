@@ -1,0 +1,12 @@
+<!DOCTYPE >
+<html>
+	<header>
+		<%= javascript_include_tag "application", "user"%>
+		<%= stylesheet_link_tag "application", "styles" %>
+	</header>
+	
+	<body>
+		<%= render 'my_admin/header', :model => @model %>
+		<%= yield %>
+	</body>
+</html>

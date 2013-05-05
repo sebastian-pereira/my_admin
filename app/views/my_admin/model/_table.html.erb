@@ -1,0 +1,28 @@
+<p><%= flash[:notice] %></p>
+<%= form_tag :controller => :model, :action => :save do %>
+	<table>
+		<tr>
+			<% field_labels.each_pair do |k, f| %>
+				<th><%= f['name'] %></th>
+			<% end %>
+		</tr>
+		<% fields.each_pair do |k, f| %>
+			<tr>
+				<% field_labels.each_pair do |name, label| %>
+				<% f.each do |mf| %>
+					<% if mf.method == name %>
+						<td>
+							<%= mf.html(:single)%>
+						</td>
+					<% end %>
+				<% end %>
+			<% end %>
+			</tr>
+		<% end %>
+		<tfoot>
+			<tr>
+				<td colspan="4"><%= submit_tag 'Сохранить' %></td>
+			</tr>
+		</tfoot>
+	</table>
+<% end %>

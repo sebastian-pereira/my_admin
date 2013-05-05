@@ -1,0 +1,36 @@
+---
+id:
+  label: ID
+  position: '1'
+  type: label
+  visible: '1'
+  readonly: '1'
+  disabled: '0'
+name:
+  label: Name
+  position: '2'
+  type: text
+  visible: '1'
+  readonly: '1'
+  disabled: '0'
+surname:
+  label: Surname
+  position: '3'
+  type: text
+  visible: '1'
+  readonly: '1'
+  disabled: '0'
+user_hash:
+  label: Hash
+  position: '4'
+  type: text
+  visible: '0'
+  readonly: '1'
+  disabled: '0'
+email:
+  label: E-mail
+  position: '5'
+  type: text
+  visible: '1'
+  readonly: '0'
+  disabled: '0'

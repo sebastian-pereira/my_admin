@@ -1,0 +1,5 @@
+# A sample Guardfile
+# More info at https://github.com/guard/guard#readme
+
+guard 'webrick', :host => '127.0.0.1', :port => '3000', :docroot => 'public' do
+end

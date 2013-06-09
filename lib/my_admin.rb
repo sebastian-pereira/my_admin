@@ -26,15 +26,6 @@ module MyAdmin
   require 'my_admin/classes/configs/config'
 
 
-  require 'my_admin/classes/models/action'
-  require 'my_admin/classes/models/action_decorator'
-  require 'my_admin/classes/models/actions/edit'
-  require 'my_admin/classes/models/actions/view'
-  require 'my_admin/classes/models/actions/delete'
-  require 'my_admin/classes/models/actions/save'
-  require 'my_admin/classes/models/actions/back'
-  require 'my_admin/classes/models/actions/add'
-
   require 'my_admin/generators/template'
   require 'my_admin/engine'
   require 'my_admin/helpers/columnizer'
@@ -70,8 +61,7 @@ module MyAdmin
 
   require 'my_admin/classes/modeller/modeller'
   require 'my_admin/classes/modeller/fields/field'
-  require 'my_admin/classes/modeller/actions/action'
-  require 'my_admin/classes/modeller/action_collection'
+
   require 'my_admin/classes/modeller/relations/param'
   require 'my_admin/classes/modeller/relations/params/label'
   require 'my_admin/classes/modeller/relations/params/type'

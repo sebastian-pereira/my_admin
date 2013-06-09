@@ -13,6 +13,16 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/classes/admin_user.rb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/classes/admin_user_role.rb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/classes/material.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/classes/modeller/action_collection.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/classes/modeller/actions/action.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/classes/models/action.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/classes/models/action_decorator.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/classes/models/actions/add.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/classes/models/actions/back.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/classes/models/actions/delete.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/classes/models/actions/edit.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/classes/models/actions/save.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/classes/models/actions/view.rb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/classes/models/base.rb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/classes/records/base.rb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/foundations/actions/classes/action.rb" afterPath="" />
@@ -43,6 +53,16 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/foundations/views/editable/edit.html.erb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/foundations/views/editable/save.html.erb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/foundations/views/viewable/index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/views/models/actions/delete.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/views/models/actions/edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/views/models/actions/labels/add.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/views/models/actions/labels/back.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/views/models/actions/labels/delete.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/views/models/actions/labels/edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/views/models/actions/labels/save.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/views/models/actions/labels/view.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/views/models/actions/save.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/views/models/actions/view.html.erb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/views/models/templates/delete.html.erb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/views/models/templates/edit.html.erb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/views/models/templates/index.html.erb" afterPath="" />
@@ -52,30 +72,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/views/records/templates/index.html.erb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/my_admin/views/records/templates/object.html.erb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/test/test_class.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/my_admin.iml" afterPath="$PROJECT_DIR$/.idea/my_admin.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/admin_area.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/admin_area.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/my_admin/base_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/my_admin/base_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/my_admin/helpers/columnizer.rb" afterPath="$PROJECT_DIR$/lib/my_admin/helpers/columnizer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/my_admin/classes/configs/config.rb" afterPath="$PROJECT_DIR$/lib/my_admin/classes/configs/config.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/my_admin/classes/models/faculty.rb" afterPath="$PROJECT_DIR$/lib/my_admin/classes/models/faculty.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/my_admin/classes/records/faculty.rb" afterPath="$PROJECT_DIR$/lib/my_admin/classes/records/faculty.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/dummy/app/models/faculty.rb" afterPath="$PROJECT_DIR$/test/dummy/app/models/faculty.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/table_configs/faculty.yml" afterPath="$PROJECT_DIR$/config/table_configs/faculty.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/my_admin/classes/fields/models/field.rb" afterPath="$PROJECT_DIR$/lib/my_admin/classes/fields/models/field.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/fields.yml" afterPath="$PROJECT_DIR$/config/fields.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/my_admin/base/index.html.erb" afterPath="$PROJECT_DIR$/app/views/my_admin/base/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/my_admin/model_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/my_admin/model_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/my_admin.rb" afterPath="$PROJECT_DIR$/lib/my_admin.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/dummy/db/schema.rb" afterPath="$PROJECT_DIR$/test/dummy/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/styles.css.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/styles.css.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/my_admin/classes/models/university.rb" afterPath="$PROJECT_DIR$/lib/my_admin/classes/models/university.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/my_admin/classes/records/university.rb" afterPath="$PROJECT_DIR$/lib/my_admin/classes/records/university.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/dummy/app/models/university.rb" afterPath="$PROJECT_DIR$/test/dummy/app/models/university.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/table_configs/university.yml" afterPath="$PROJECT_DIR$/config/table_configs/university.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/my_admin/classes/records/user.rb" afterPath="$PROJECT_DIR$/lib/my_admin/classes/records/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="my_admin.iws" />
@@ -87,7 +84,7 @@
     <file path="/model.rb" changelist="c41812e3-cb56-4bed-8754-098a528fa732" time="1370774544737" ignored="false" />
     <file path="/user.yml" changelist="c41812e3-cb56-4bed-8754-098a528fa732" time="1367521536609" ignored="false" />
     <file path="/field.rb" changelist="c41812e3-cb56-4bed-8754-098a528fa732" time="1368475621870" ignored="false" />
-    <file path="/Dummy.txt" changelist="c41812e3-cb56-4bed-8754-098a528fa732" time="1370773900797" ignored="false" />
+    <file path="/Dummy.txt" changelist="c41812e3-cb56-4bed-8754-098a528fa732" time="1370775079524" ignored="false" />
     <file path="/styles.css.sass" changelist="c41812e3-cb56-4bed-8754-098a528fa732" time="1370456075263" ignored="false" />
     <file path="/base.rb" changelist="c41812e3-cb56-4bed-8754-098a528fa732" time="1367781279804" ignored="false" />
     <file path="/20130406230806_create_users.rb" changelist="c41812e3-cb56-4bed-8754-098a528fa732" time="1367527250282" ignored="false" />
@@ -276,15 +273,6 @@
         </entry>
       </file>
       <file leaf-file-name="save.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/my_admin/classes/models/actions/save.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="58" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="save.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/my_admin/classes/buttons/save.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="6" column="21" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
@@ -293,10 +281,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="record.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="record.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/my_admin/classes/record.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="19" selection-start="794" selection-end="794" vertical-scroll-proportion="0.6368876">
+            <state line="33" column="19" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -320,10 +308,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my_admin.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="my_admin.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/my_admin.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="40" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
+            <state line="28" column="1" selection-start="871" selection-end="871" vertical-scroll-proportion="0.027829314">
               <folding />
             </state>
           </provider>
@@ -349,7 +337,6 @@
       <list>
         <option value="$PROJECT_DIR$/lib/my_admin/views/buttons/save.html.erb" />
         <option value="$PROJECT_DIR$/lib/my_admin/views/buttons/back.html.erb" />
-        <option value="$PROJECT_DIR$/lib/my_admin.rb" />
         <option value="$PROJECT_DIR$/config/table_configs/university.yml" />
         <option value="$PROJECT_DIR$/lib/my_admin/classes/buttons/back.rb" />
         <option value="$PROJECT_DIR$/lib/my_admin/classes/buttons/save.rb" />
@@ -363,6 +350,7 @@
         <option value="$PROJECT_DIR$/config/table_configs/album.yml" />
         <option value="$PROJECT_DIR$/lib/my_admin/classes/configs/loaders/model_loader.rb" />
         <option value="$PROJECT_DIR$/lib/my_admin/classes/record.rb" />
+        <option value="$PROJECT_DIR$/lib/my_admin.rb" />
       </list>
     </option>
   </component>
@@ -512,6 +500,62 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="records" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="relations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -609,11 +653,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actions" />
+              <option name="myItemId" value="modeller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -640,36 +680,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="configs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my_admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my_admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my_admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="configs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loaders" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -808,13 +818,29 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="81" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="99" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="80" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../my_fields" />
-    <property name="options.searchVisible" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="102" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1004" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1004" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="102" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="100" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1131,18 +1157,18 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32522798" sideWeight="0.6976351" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32522798" sideWeight="0.6706081" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39695945" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39864865" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30236486" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30236486" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1211,13 +1237,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/my_admin/classes/models/faculty.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/table_configs/faculty.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="0" selection-start="503" selection-end="562" vertical-scroll-proportion="0.0" />
@@ -1240,16 +1259,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/my_admin/views/models/actions/labels/delete.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="34" selection-start="292" selection-end="292" vertical-scroll-proportion="0.1494024" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/my_admin/views/models/actions/labels/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="385" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/table_configs/university.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="0" selection-start="716" selection-end="716" vertical-scroll-proportion="0.026642984" />
@@ -1260,11 +1269,6 @@
         <state line="6" column="21" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/my_admin/classes/models/actions/delete.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="53" selection-start="126" selection-end="573" vertical-scroll-proportion="0.5062167" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/my_admin/views/records/view.html.erb">
@@ -1304,7 +1308,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/my_admin/classes/record.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="19" selection-start="794" selection-end="794" vertical-scroll-proportion="0.6368876">
+        <state line="33" column="19" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my_admin.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="1" selection-start="871" selection-end="871" vertical-scroll-proportion="0.027829314">
           <folding />
         </state>
       </provider>

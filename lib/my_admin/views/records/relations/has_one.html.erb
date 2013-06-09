@@ -1,0 +1,8 @@
+<% if @data %>
+    <div class="header">
+      <%= @name %>:
+    </div>
+    <div class="item_row">
+      <%= MyAdmin::Records.const_get(@name.classify).new(@data, actions, false).render(:view, false) %>
+    </div>
+<% end %>

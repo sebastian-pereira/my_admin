@@ -1,7 +1,7 @@
 <h4>Модели данных</h4>
 <ul>
-  <li><%= link_to 'ВУЗы', :controller => 'my_admin/universities', :action => :index %></li>
-  <li><%= link_to 'Факультеты', :controller => 'my_admin/faculties', :action => :index %></li>
+  <li><%= link_to 'ВУЗы', :controller => 'my_admin/base', :action => 'model_action', :model => 'universities', :act => 'index' %></li>
+  <li><%= link_to 'Факультеты', :controller => 'my_admin/base', :action => 'model_action', :model => 'faculties', :act => 'index' %></li>
+  <li><%= link_to 'Альбомы', :controller => 'my_admin/base', :action => 'model_action', :model => 'albums', :act => 'index' %></li>
 </ul>
-
-<%= @html %>
+<%= debug(@html) %>

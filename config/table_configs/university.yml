@@ -1,29 +1,78 @@
----
-id:
-  label: ID
-  position: '1'
-  type: label
-  visible: '1'
-  readonly: '1'
-  disabled: '0'
-name:
-  label: Name
-  position: '2'
-  type: text
-  visible: '1'
-  readonly: '1'
-  disabled: '0'
-abbr:
-  label: Short
-  position: '3'
-  type: text
-  visible: '1'
-  readonly: '0'
-  disabled: '0'
-city_id:
-  label: City
-  position: '3'
-  type: select
-  visible: '1'
-  readonly: '0'
-  disabled: '0'
+fields:
+  id:
+    label: ID
+    position: '1'
+    type: label
+    foreign_key : '0'
+    options:
+      visible: '1'
+      readonly: '1'
+      disabled: '0'
+  name:
+    label: Name
+    position: '2'
+    type: text
+    foreign_key : '0'
+    options:
+      visible: '1'
+      readonly: '0'
+      disabled: '0'
+  abbr:
+    label: Short
+    position: '3'
+    type: text
+    foreign_key : '0'
+    options:
+      visible: '1'
+      readonly: '0'
+      disabled: '0'
+  city_id:
+    label: City
+    position: '3'
+    type: select
+    column: '1'
+    foreign_key : '1'
+    display_field : 'name'
+    options:
+      visible: '1'
+      readonly: '0'
+      disabled: '0'
+
+buttons:
+  save:
+    label: Save
+  back:
+    label: Back
+
+
+columns:
+  0:
+    name: id
+    label: ID
+    position: '1'
+    in_relations: '0'
+    visible: '1'
+    fields:
+      0 : id
+  1:
+    name: name
+    label: Name
+    position: '2'
+    in_relations: '1'
+    visible: '1'
+    fields:
+      0 : name
+
+
+actions:
+  edit: 1
+  view : 1
+  delete : 0
+  save : 1
+  add : 1
+
+relations:
+  faculties:
+    label: 'Faculties'
+    type: 'has_many'
+    visible: '1'

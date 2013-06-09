@@ -6,7 +6,7 @@ class MyAdmin::BaseController < ApplicationController
   attr_reader :model
   
   def index
-    @html = MyAdmin::ModelConfigs::Config.new('faculty').actions
+    #@html = ActiveRecord::Base::University.reflect_on_all_associations.map { |assoc| assoc}
   end
 
   def model_action
@@ -17,42 +17,22 @@ class MyAdmin::BaseController < ApplicationController
         data[k] = v
       end
     end
-    #@html = @model.send(params[:act], [data])
-    @html = @model.action_do(params[:act], [data])
+    @html = @model.send('action_' + params[:act].to_s, data)
+    #@html = @model.action_do(params[:act], [data])
 
-  rescue ClassNotDefinedError => e
-    @html = e.message
-  rescue ActiveRecord::RecordNotFound => e
-    @html = e.message
+  #rescue ClassNotDefinedError => e
+  #  @html = e.message
+  #rescue ActiveRecord::RecordNotFound => e
+  #  @html = e.message
   #rescue ArgumentError => e
   #  @html = 'System fail: ' + e.message
   #rescue => e
   #  @html = 'Base system fail: ' + e.message
   end
   
-  #def edit
-  #  #@object = ('MyAdmin::Models::' + @model.classify.to_s).constantize.new.edit(params[:id])
-  #  @model = MyAdmin::Models.const_get(@short_model_name.classify).new
-  #  @html = @model.edit(params[:id])
-  #end
-  #
-  #def save
-  #  @object = ('MyAdmin::Models::' + @short_model_name.classify.to_s).constantize.new.save(params[@short_model_name])
-  #
-  #  if @object
-  #    flash[:notice] = 'Saved!'
-  #    redirect_to :action => :index
-  #  else
-  #    flash[:notice] = 'Error occured!!!'
-  #    redirect_to :back
-  #  end
-  #end
-  
-  
-  private 
+  private
   
   def init
-
     @short_model_name = controller_name
     #@model_object = ('MyAdmin::' + @@name.classify.to_s).constantize.new
   end

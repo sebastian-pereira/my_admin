@@ -1,22 +1,39 @@
 label : 
-  name : 'Название'
+  label : 'Название'
   type : 'text'
+  options:
 position :
-  name : 'Позиция'
+  label : 'Позиция'
   type : 'text'
+  options:
 type : 
-  name : 'Тип'
+  label : 'Тип'
   type : 'select'
-  values : 'field_types'
-visible :
-  name : 'Visible'
-  type : 'select'
-  values : 'yes_no'
-readonly :
-  name : 'Readonly'
-  type : 'select'
-  values : 'yes_no'
-disabled :
-  name : 'Disabled'
-  type : 'select'
-  values : 'yes_no'  
+  options:
+    values : 'field_types'
+foreign_key:
+  label : 'Внешний ключ'
+  type: 'select'
+  options:
+    values : 'yes_no'
+display_field:
+  label : 'Поле внешнего ключа'
+  type: 'select'
+  options:
+    values : 'model_fields'
+options:
+  visible :
+    label : 'Visible'
+    type : 'select'
+    options:
+      values : 'yes_no'
+  readonly :
+    label : 'Readonly'
+    type : 'select'
+    options:
+      values : 'yes_no'
+  disabled :
+    label : 'Disabled'
+    type : 'select'
+    options:
+      values : 'yes_no'

@@ -1,3 +1,12 @@
+html, body
+  width: 100%
+  height: 100%
+  float : left
+  padding: 0 auto
+#main
+  border: 1px solid black
+  width: 1000px
+  margin: 0 auto
 ul.index_list
   padding : 0px
   ul
@@ -12,3 +21,59 @@ tr.relation_row_unit td
 tr.item_row_unit td
   background-color: mediumaquamarine
 
+.clear
+  width : 100%
+  clear : both
+
+.main_object_control
+  background-color: aqua
+  width: 700px
+
+.item_row_headers
+  float : left
+
+.item
+  float : left
+  border-bottom : 1px solid black
+  width : 100%
+  .main_object_row
+    margin : 0 10px
+    margin-top : 5px
+    margin-bottom : 2px
+    float : left
+    width : 100%
+    border : 1px solid gray
+    .action_part
+      float : right
+      .action_label
+        margin: 0 5px
+    .render_view_label_div
+      float: left
+      margin : 0 10px
+
+  .relations_object_block
+    padding : 0 10px
+    margin : 0 10px
+    margin-top : 5px
+    margin-bottom : 2px
+    .header
+      font-weight: bold
+      color: gray
+      font-style: italic
+    .main_object_row
+      margin : 0px
+      margin-bottom : 2px
+      border : 1px solid red
+
+  .actions
+    float : left
+    .action_label
+      float : left
+      margin : 0 10px
+
+
+.action_label
+  display: inline
+  float : left
+
+.edit_form

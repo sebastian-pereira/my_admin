@@ -1,0 +1,22 @@
+<div class="edit_form">
+<!-- TODO: Переделать на form_tag -->
+<form action="/admin_area/<%=@model.name.pluralize.downcase%>/save" method="post">
+  <input type="hidden"  name="<%=@model.name.downcase%>[id]" value="<%=@object.object.id %>" />
+  <table>
+    <% fields.each do |f| %>
+        <tr>
+            <td><%= f.label %></td>
+            <td><%= f.html(:single) %></td>
+        </tr>
+    <% end %>
+  </table>
+
+  <% @actions.each do |a| %>
+      <% if a.location == 1 %>
+       <%= a.render_label(@object) %>
+      <% end %>
+  <% end %>
+
+</form>
+  <div class="clear"></div>
+</div>

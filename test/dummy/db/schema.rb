@@ -13,12 +13,19 @@
 
 ActiveRecord::Schema.define(:version => 20130406230806) do
 
+  create_table "actions", :force => true do |t|
+    t.string  "name",                       :null => false
+    t.boolean "visible",  :default => true, :null => false
+    t.boolean "location", :default => true, :null => false
+  end
+
   create_table "admin_user_roles", :force => true do |t|
     t.string   "name",       :limit => 50
     t.string   "alias",      :limit => 20
     t.boolean  "active",                   :default => true
-    t.datetime "created_at",                                 :null => false
-    t.datetime "updated_at",                                 :null => false
+    t.boolean  "trash",                    :default => false
+    t.datetime "created_at",                                  :null => false
+    t.datetime "updated_at",                                  :null => false
   end
 
   add_index "admin_user_roles", ["alias"], :name => "index_admin_user_roles_on_alias", :unique => true
@@ -39,6 +46,20 @@ ActiveRecord::Schema.define(:version => 20130406230806) do
 
   add_index "admin_users", ["admin_user_role_id"], :name => "fk_role"
   add_index "admin_users", ["email"], :name => "index_admin_users_on_email", :unique => true
+
+  create_table "albums", :force => true do |t|
+    t.string   "name"
+    t.string   "alias"
+    t.string   "announce"
+    t.string   "description"
+    t.integer  "user_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  create_table "cities", :force => true do |t|
+    t.string "name", :null => false
+  end
 
   create_table "faculties", :force => true do |t|
     t.string   "name"

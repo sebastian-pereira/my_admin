@@ -1,0 +1,21 @@
+<div class="main_object_row">
+    <% @labels.each do |l| %>
+        <span class="render_view_label_div"><%= l.html(:single) %></span>
+    <% end %>
+    <div class="action_part">
+      <div class="action_label">
+        <a href="/admin_area/<%= @object.class.name.pluralize.downcase%>/edit?id=<%= @object.id%>">Редактировать</a>
+      </div>
+      <div class="action_label">
+        <a href="/admin_area/<%= @object.class.name.downcase.pluralize %>/delete?id=<%= @object.id %>">Удалить</a>
+      </div>
+    </div>
+</div>
+
+<% if with_relations %>
+    <div class="relations_object_block">
+      <% @relations.each_value do |rel| %>
+        <%= rel.render(@actions) %>
+      <% end %>
+    </div>
+<% end %>

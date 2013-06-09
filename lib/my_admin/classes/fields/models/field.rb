@@ -9,9 +9,9 @@ module MyAdmin
     
         attr_reader :name, :attributes, :errors
         
-        def initialize(name)
+        def initialize(name, attributes = [])
           @name = name
-          @attributes = []
+          @attributes = attributes
           @errors = []
         end
         

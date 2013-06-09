@@ -1,7 +1,7 @@
 module MyAdmin
   module Records
     class University
-      include Base
+      include MyAdmin::Record
       
     end
   end

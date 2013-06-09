@@ -29,3 +29,8 @@ def colzer(object)
   end
   result
 end
+
+def class_single_name(klass, downcase = true, capitalize = false)
+  result = downcase ? klass.name.split('::')[-1].downcase : klass.name.split('::')[-1]
+  result = capitalize ? result.capitalize : result
+end

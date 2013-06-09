@@ -1,7 +1,7 @@
 module MyAdmin
   module Records
     class User
-      include Base
+      include MyAdmin::Record
       
     end
   end

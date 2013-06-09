@@ -1,0 +1,51 @@
+fields:
+  id:
+    label: ID
+    position: '1'
+    type: label
+    foreign_key : '0'
+    options:
+      visible: '1'
+      readonly: '1'
+      disabled: '0'
+  name:
+    label: Name
+    position: '2'
+    type: text
+    foreign_key : '0'
+    options:
+      visible: '1'
+      readonly: '1'
+      disabled: '0'
+  abbr:
+    label: Short
+    position: '3'
+    type: text
+    foreign_key : '0'
+    options:
+      visible: '1'
+      readonly: '0'
+      disabled: '0'
+  city_id:
+    label: City
+    position: '3'
+    type: select
+    foreign_key : '1'
+    display_field : 'name'
+    options:
+      visible: '1'
+      readonly: '0'
+      disabled: '0'
+
+actions:
+  edit: 1
+  view : 1
+  delete : 0
+  save : 1
+  add : 1
+
+relations:
+  faculties:
+    label: 'Faculties'
+    type: 'has_many'
+    visible: '1'

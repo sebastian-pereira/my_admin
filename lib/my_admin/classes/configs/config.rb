@@ -2,13 +2,15 @@ module MyAdmin
   module ModelConfigs
     class Config
 
-      attr_reader :relations, :errors, :actions
+      attr_reader :relations, :errors, :actions, :buttons
 
       def initialize(model)
         @errors = []
         @actions = {}
+        @columns = []
+        @buttons = []
 
-        conditions = YAML.load_file("../../config/models/#{model}.yml")
+        conditions = YAML.load_file("../../config/table_configs/#{model}.yml")
 
         @validator = MyAdmin::Validators::Configs::Model.new(conditions)
         @validator.validate
@@ -23,6 +25,14 @@ module MyAdmin
 
         if conditions.keys.include?('relations')
           @relations = conditions['relations']
+        end
+
+        if conditions.keys.include?('columns')
+          @columns = conditions['columns']
+        end
+
+        if conditions.keys.include?('buttons')
+          @buttons = conditions['buttons']
         end
       end
     end

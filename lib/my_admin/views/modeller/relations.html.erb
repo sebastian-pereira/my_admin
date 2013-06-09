@@ -1,0 +1,12 @@
+<table>
+  <tr>
+    <th>Метка</th>
+    <th>Тип</th>
+    <th>Visible</th>
+  </tr>
+  <tr>
+    <% @relations.each do |rel| %>
+        <%= rel.render(model_name) %>
+    <% end %>
+  </tr>
+</table>

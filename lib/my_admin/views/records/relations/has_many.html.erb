@@ -1,0 +1,6 @@
+<% if @data and @data.size > 0 %>
+    <div class="header"><%= @label %></div>
+    <% @data.each do |rel_obj| %>
+      <%= MyAdmin::Records.const_get(@name.classify).new(rel_obj, actions, false).render(:view, false) %>
+    <% end %>
+<% end %>

@@ -1,0 +1,20 @@
+<div class="edit_form">
+<!-- TODO: Переделать на form_tag -->
+<form action="/admin_area/<%=data[:model].name.pluralize.downcase%>/save" method="post">
+  <input type="hidden"  name="<%=data[:model].name.downcase%>[id]" value="<%=data[:object].object.id %>" />
+  <table>
+    <% data[:fields].each do |f| %>
+        <tr>
+            <td><%= f.label %></td>
+            <td><%= f.html(:single) %></td>
+        </tr>
+    <% end %>
+  </table>
+
+  <% data[:buttons].each do |button| %>
+    <%= button.render %>
+  <% end %>
+</form>
+
+  <div class="clear"></div>
+</div>

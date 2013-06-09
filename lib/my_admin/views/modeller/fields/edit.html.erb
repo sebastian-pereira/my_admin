@@ -1,0 +1,17 @@
+<tr>
+    <td><%= @label.render(model_name) %></td>
+    <td><%= @position.render(model_name) %></td>
+    <td><%= @type.render(model_name) %></td>
+    <td><%= @visible.render(model_name) %></td>
+    <td><%= @readonly.render(model_name) %></td>
+    <td><%= @disabled.render(model_name) %></td>
+    <td><%= @foreign_key.render(model_name) %></td>
+    <td>
+      <% if @foreign_key.value == '0' %>
+          <% options = {'disabled' => 'disabled'} %>
+      <% else %>
+          <% options = {} %>
+      <% end %>
+      <%= @display_field.render(model_name, options) %>
+    </td>
+</tr>

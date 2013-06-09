@@ -1,0 +1,15 @@
+<table>
+  <tr>
+    <th>Обозначение</th>
+    <th>Позиция</th>
+    <th>Тип</th>
+    <th>Visible</th>
+    <th>ReadOnly</th>
+    <th>Disabled</th>
+    <th>Внешний ключ</th>
+    <th>Поле внешнего ключа</th>
+  </tr>
+  <% @fields.each_value do |field| %>
+      <%= field.render(model_name) %>
+  <% end %>
+</table>

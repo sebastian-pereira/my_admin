@@ -1,0 +1,73 @@
+fields:
+  id:
+    label: ID
+    position: '1'
+    type: label
+    foreign_key : '0'
+    options:
+      visible: '1'
+      readonly: '1'
+      disabled: '0'
+  name:
+    label: Name
+    position: '2'
+    type: text
+    foreign_key : '0'
+    options:
+      visible: '1'
+      readonly: '1'
+      disabled: '0'
+  alias:
+      label: Name
+      position: '2'
+      type: text
+      foreign_key : '0'
+      options:
+        visible: '1'
+        readonly: '1'
+        disabled: '0'
+  announce:
+        label: Name
+        position: '2'
+        type: textarea
+        foreign_key : '0'
+        options:
+          visible: '1'
+          readonly: '1'
+          disabled: '0'
+  description:
+        label: Name
+        position: '2'
+        type: textarea
+        foreign_key : '0'
+        options:
+          visible: '1'
+          readonly: '1'
+          disabled: '0'
+  user_id:
+        label: User
+        position: '2'
+        type: select
+        foreign_key : '1'
+        display_field: 'name'
+        options:
+          visible: '1'
+          readonly: '1'
+          disabled: '0'
+
+buttons:
+  save :
+    label : Save
+  back:
+    label : Back
+
+
+actions:
+  edit: 1
+  view : 1
+  delete : 0
+  save : 1
+  add : 1
+
+relations:
+

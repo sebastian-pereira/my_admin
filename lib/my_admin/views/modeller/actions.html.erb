@@ -1,0 +1,16 @@
+<table>
+  <tr>
+    <th>Просмотр</th>
+    <th>Добавление</th>
+    <th>Редактирование</th>
+    <th>Сохранение</th>
+    <th>Удаление</th>
+  </tr>
+  <tr>
+    <td><%= @view.render(model_name) %></td>
+    <td><%= @add.render(model_name) %></td>
+    <td><%= @edit.render(model_name) %></td>
+    <td><%= @save.render(model_name) %></td>
+    <td><%= @delete.render(model_name) %></td>
+  </tr>
+</table>
